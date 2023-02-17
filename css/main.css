@@ -119,6 +119,11 @@ nav button {
   font-size: 1.5rem;
 }
 
+nav button:active {
+  color: var(--color-red);
+  background-color: transparent;
+}
+
 nav button[disabled] {
   color: var(--color-grey-light);
 }
