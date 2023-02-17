@@ -1,12 +1,19 @@
+let shuffled = questions
+    .map(value => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value);
+
+console.log(shuffled);
+
 const btns = document.querySelectorAll('nav button');
 const counts = document.querySelectorAll('.position span');
 let curr = 0;
 let items;
 
 function displayQuestions(){
-  if(questions){
+  if(shuffled){
     const wrap = document.querySelector('main');
-    const questionList = questions.map(function(q){
+    const questionList = shuffled.map(function(q){
       return `
         <div class="item">
           <div class="carousel">
