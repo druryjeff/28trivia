@@ -54,7 +54,7 @@ header h1 {
   display: none;
 }
 
-@media (orientation: landscape) {
+@media screen and (max-width: 40em) and (orientation: landscape) {
   .nolandscape {
     display: flex;
     position: fixed;
