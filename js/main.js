@@ -1,19 +1,21 @@
-let shuffled = questions
+let shuffledQuestions = questions
     .map(value => ({ value, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
     .map(({ value }) => value);
 
-console.log(shuffled);
-
 const btns = document.querySelectorAll('nav button');
 const counts = document.querySelectorAll('.position span');
+const suggest = document.querySelector('.suggest');
+const cover = document.querySelector('.cover');
+const btnCover = cover.querySelector('button');
+
 let curr = 0;
 let items;
 
 function displayQuestions(){
-  if(shuffled){
+  if(shuffledQuestions){
     const wrap = document.querySelector('main');
-    const questionList = shuffled.map(function(q){
+    const questionList = shuffledQuestions.map(function(q){
       return `
         <div class="item">
           <div class="carousel">
@@ -49,6 +51,9 @@ function updateCount(){
   counts.item(0).textContent = curr+1;
   counts.item(1).textContent = items.length;
   displayButtons(items);
+  if(curr>0){
+    suggest.classList.add('hide');
+  }
 }
 
 function displayButtons(){
@@ -75,6 +80,10 @@ btns.forEach(function(b,i){
     enableFlick(curr);
     updateCount();
   })
+})
+
+btnCover.addEventListener('click',function(){
+  cover.classList.add('reveal');
 })
 
 displayQuestions();

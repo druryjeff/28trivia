@@ -21,7 +21,8 @@ const questions = [
   },
   {
     question: `What is the name of the bait shop Dad used to go to when he was a kid?`,
-    answer: `Bucko’s Bait`
+    answer: `Bucko’s Bait`,
+    bonus: [`where was that?`,`Cook Pond in Fall River`]
   },
   {
     question: `What happened the first-time Grandpa Louie took dad fishing?`,
@@ -30,5 +31,25 @@ const questions = [
   {
     question: `What did Dad ask Grandpa Louie after he fell in the water while fishing at the Swansea Dam?`,
     answer: `Does this mean we are not going for ice cream?`
+  },
+  {
+    question: `How old was Dad when he moved to Fall River?`,
+    answer: `Three years old`
+  },
+  {
+    question: `What two towns did Dad live in before moving to Fall River?`,
+    answer: `Holbrook and Somerset`
+  },
+  {
+    question: `What was the name of the street or neighborhood Dad lived in in Somerset?`,
+    answer: `Calvin Avenue or Americana Terrace`
+  },
+  {
+    question: `What was the make and model of Dad’s first car?`,
+    answer: `Ford Escort`
+  },
+  {
+    question: `What happened to that car?`,
+    answer: `It got totaled in Newport one night on the way to Jai Alai`
   }
 ];
