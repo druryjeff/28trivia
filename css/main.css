@@ -1,6 +1,7 @@
 :root {
-  --color-blue: #0C2340;
-  --color-red: #BD3039;
+  --color-blue: #0c2340;
+  --color-red: #bd3039;
+  --color-grey-light: #ccc;
 }
 
 * {
@@ -116,6 +117,10 @@ nav button {
   text-align: center;
   color: var(--color-red);
   font-size: 1.5rem;
+}
+
+nav button[disabled] {
+  color: var(--color-grey-light);
 }
 
 .cover {
