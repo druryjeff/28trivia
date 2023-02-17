@@ -9,6 +9,7 @@ html, body {
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
+  font-family: 'Inter', sans-serif;
 }
 
 .item,
@@ -22,8 +23,8 @@ body {
   /* full width */
   height: 100%;
   /* height of carousel */
-  font-size: 2.5rem;
-  padding: 2.5rem;
+  font-size: 1.5rem;
+  padding: 1.5rem;
 }
 .carousel-cell.ques {
   background-color: red;
@@ -34,7 +35,7 @@ body {
 
 header, nav {
   background-color: #fff;
-  padding: 2.5rem;
+  padding: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
