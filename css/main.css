@@ -138,8 +138,8 @@ nav button[disabled] {
   background-color: var(--color-red);
   display: grid;
   grid-template-rows: 1fr auto;
-  place-items: center;
-  padding: 2.5rem;
+  justify-items: center;
+  padding: 7.5rem 2.5rem 3.75rem;
   transition: transform .4s;
 }
 
