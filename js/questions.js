@@ -51,5 +51,65 @@ const questions = [
   {
     question: `What happened to that car?`,
     answer: `It got totaled in Newport one night on the way to Jai Alai`
+  },
+  {
+    question: `What school was Dad banned from when he was in college?`,
+    answer: `Wheaton`
+  },
+  {
+    question: `What did Dad compliment the first time he met Mom?`,
+    answer: `Her eyes`
+  },
+  {
+    question: `What were the names of the two dogs Dad had growing up?`,
+    answer: `Sam and Buddy`
+  },
+  {
+    question: `How did the family end up with Sam?`,
+    answer: `Uncle Freddy showed up with him one day`
+  },
+  {
+    question: `What happened to Sam?`,
+    answer: `Hit by a car`
+  },
+  {
+    question: `What were the names of the two cats had growing up?`,
+    answer: `Marbles and Freckles`
+  },
+  {
+    question: `What happened to each?`,
+    answer: `Marbles died on Christmas morning after drinking antifreeze on the garage floor and Freckles ran away`
+  },
+  {
+    question: `What was the name of the street Dad grew up on?`,
+    answer: `Woodlawn Street`
+  },
+  {
+    question: `Where was Mom and Dad’s first kiss?`,
+    answer: `In the alley next to the Z-Bar`
+  },
+  {
+    question: `What was Dad’s major in college?`,
+    answer: `Accounting`
+  },
+  {
+    question: `One time when he was mad, what did Grandpa Louie throw at Dad?`,
+    answer: `A bowling ball`
+  },
+  {
+    question: `What instrument did Dad take lessons in when he was in elementary school?`,
+    answer: `Flute`
+  },
+  {
+    question: `Why did he decide to take up this instrument?`,
+    answer: `Because there were lots of girls signing up for lessons`
+  },
+  {
+    question: `What did Dad hang in his car every Christmas when he was a teenager?`,
+    answer: `Mistletoe`
+  },
+  {
+    question: `What three jobs did Dad do before he had a driver’s license to earn money?`,
+    answer: `Cut grass, umpired little league, and was a DJ`
   }
 ];
