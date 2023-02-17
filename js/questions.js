@@ -49,7 +49,7 @@ const questions = [
     answer: `Ford Escort`
   },
   {
-    question: `What happened to that car?`,
+    question: `What happened to Dad’s first car?`,
     answer: `It got totaled in Newport one night on the way to Jai Alai`
   },
   {
@@ -65,11 +65,11 @@ const questions = [
     answer: `Sam and Buddy`
   },
   {
-    question: `How did the family end up with Sam?`,
+    question: `How did the family end up with Sam the dog?`,
     answer: `Uncle Freddy showed up with him one day`
   },
   {
-    question: `What happened to Sam?`,
+    question: `What happened to Sam the dog?`,
     answer: `Hit by a car`
   },
   {
@@ -77,7 +77,7 @@ const questions = [
     answer: `Marbles and Freckles`
   },
   {
-    question: `What happened to each?`,
+    question: `What happened to the two cats Dad had growing up?`,
     answer: `Marbles died on Christmas morning after drinking antifreeze on the garage floor and Freckles ran away`
   },
   {
@@ -101,7 +101,7 @@ const questions = [
     answer: `Flute`
   },
   {
-    question: `Why did he decide to take up this instrument?`,
+    question: `Why did Dad decide to take up his first instrument?`,
     answer: `Because there were lots of girls signing up for lessons`
   },
   {
