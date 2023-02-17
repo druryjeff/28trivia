@@ -49,21 +49,3 @@ header h1 {
 .hide {
   display: none;
 }
-
-.nolandscape {
-  display: none;
-}
-
-@media screen and (max-width: 40em) and (orientation: landscape) {
-  .nolandscape {
-    display: flex;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    background-color: yellow;
-  }
-  .nolandscape p {
-    margin: auto;
-  }
-}
