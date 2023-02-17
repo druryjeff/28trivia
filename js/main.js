@@ -1,22 +1,3 @@
-const questions = [
-  {
-    question: `Who did Dad write a letter to when he was in 7 th grade because he had a crush on her?`,
-    answer: `Alyssa Milano – Who’s The Boss`
-  },
-  {
-    question: `What holiday is exactly one week before Dad’s birthday?`,
-    answer: `National Pizza Day – February 9th`
-  },
-  {
-    question: `What movie character was so frightening that Dad had to leave the movie theater when he was five years old?`,
-    answer: `Jawa – Star Wars 1978`
-  },
-  {
-    question: `What hospital was Dad born in?`,
-    answer: `Brockton Hospital`
-  }
-];
-
 const btns = document.querySelectorAll('nav button');
 const counts = document.querySelectorAll('.position span');
 let curr = 0;
