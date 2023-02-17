@@ -73,7 +73,7 @@ const questions = [
     answer: `Hit by a car`
   },
   {
-    question: `What were the names of the two cats had growing up?`,
+    question: `What were the names of the two cats Dad had growing up?`,
     answer: `Marbles and Freckles`
   },
   {
@@ -111,5 +111,57 @@ const questions = [
   {
     question: `What three jobs did Dad do before he had a driver’s license to earn money?`,
     answer: `Cut grass, umpired little league, and was a DJ`
+  },
+  {
+    question: `What was dad’s first real job when he turned 16?`,
+    answer: `He worked at WYC as a steward, lifeguard, and sailing instructor`
+  },
+  {
+    question: `What was the name of the first company Dad worked for after college?`,
+    answer: `Medical Image Management`
+  },
+  {
+    question: `What state did Dad bribe his way out of while on that job?`,
+    answer: `Texas`
+  },
+  {
+    question: `What happened to Dad’s face one time when Dad was winter hiking with Grumpa?`,
+    answer: `Frostbite`
+  },
+  {
+    question: `What was Grumpa’s reaction when he saw Dad’s frostbitten face when they were winter hiking?`,
+    answer: `He said “Ooooffff!”`
+  },
+  {
+    question: `What did Grumpa do after he said “Ooooffff” after seeing Dad’s frostbitten face?`,
+    answer: `He gave Dad ointment and hot chocolate`
+  },
+  {
+    question: `Has Dad ever stood up for someone at their wedding?  If so, who?`,
+    answer: `Yes, Best Man for Michael Terceira. Yes, Man of Honor or Honor Attendant for Auntie Amy.`
+  },
+  {
+    question: `What was the name of the Church Dad attended growing up?`,
+    answer: `Holy Name`
+  },
+  {
+    question: `What was the name of Dad’s college mascot?`,
+    answer: `Chieftain`
+  },
+  {
+    question: `What is Dad’s college mascot called now?`,
+    answer: `Skyhawk`
+  },
+  {
+    question: `What did Glamma make for Dad as a special treat for breakfast every now and then?`,
+    answer: `Banana pancakes`
+  },
+  {
+    question: `One time when Grandpa Louie was watching Dad and Auntie Amy they ordered a pizza – why did Grandpa Louie send it back?`,
+    answer: `He saw a piece of onion on the pizza`
+  },
+  {
+    question: `Does Dad have any Godchildren?`,
+    answer: `Yes, Cole Terceira and Caroline`
   }
 ];
