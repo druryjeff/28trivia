@@ -1,6 +1,8 @@
 :root {
   --color-blue: #0c2340;
   --color-red: #bd3039;
+  --color-red-med: #97262e;
+  --color-red-dark: #711d22;
   --color-grey-light: #ccc;
 }
 
@@ -35,6 +37,13 @@ header h1 {
   font-weight: 900;
 }
 
+header h1 span {
+  display: inline-block;
+  background-color: var(--color-red);
+  color: #fff;
+  padding: .5rem;
+}
+
 header .position {
   color: var(--color-blue);
 }
@@ -54,10 +63,25 @@ main {
   /* full width */
   height: 100%;
   /* height of carousel */
-  font-size: 2rem;
   padding: 1.5rem;
-  color: #fff;
 }
+
+.carousel-cell p {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
+
+.float-up {
+  animation: floatUp .2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes floatUp {
+  0% { opacity: 0; transform: translateX(20rem); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
 .carousel-cell.ques {
   background-color: var(--color-blue);
 }
@@ -140,7 +164,7 @@ nav button[disabled] {
   display: grid;
   grid-template-rows: 1fr auto;
   justify-items: center;
-  padding: 7.5rem 2.5rem 3.75rem;
+  padding: 5rem 2.5rem 3.75rem;
   transition: transform .4s;
 }
 
@@ -158,17 +182,26 @@ nav button[disabled] {
   margin: 0;
 }
 
+.cover p span {
+  display: inline-block;
+  background-color: var(--color-red-dark);
+  padding: 1rem;
+  border: .25rem solid var(--color-red);
+  position: relative;
+}
+
 .cover button {
   border: 0;
   padding: 1rem 2rem;
   font-size: 1.25rem;
   text-align: center;
   color: var(--color-blue);
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1;
   text-transform: uppercase;
   background-color: #fff;
   border-radius: 2rem;
+  color: var(--color-blue);
 }
 
 .hide {

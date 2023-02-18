@@ -19,8 +19,8 @@ function displayQuestions(){
       return `
         <div class="item">
           <div class="carousel">
-            <div class="carousel-cell ques">${q.question}</div>
-            <div class="carousel-cell answ">${q.answer}</div>
+            <div class="carousel-cell ques"><p>${q.question}</p></div>
+            <div class="carousel-cell answ"><p>${q.answer}</p></div>
           </div>
         </div>`
     });
@@ -45,6 +45,8 @@ function enableFlick(c){
   });
   // ensure that question shows by default
   flkty.select(0,0,1);
+  // animate text onto screen
+  items.item(c).querySelector('.carousel-cell p').classList.add('float-up');
 }
 
 function updateCount(){
